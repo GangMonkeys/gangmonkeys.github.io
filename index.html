@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangmonkeys.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <video id="bgVideo" autoplay muted loop>
+        <source src="https://static.moewalls.com/videos/preview/2024/power-poles-purple-sky-pixel-preview.mp4" type="video/mp4">
+        REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+    </video>
+    <div class="blur-overlay"></div>
+    <div class="gif-container">
+        <img src="giphy.gif" alt="Animated Graphic">
+    </div>
+    <div class="button-container">
+        <button class="outlined-button" onclick="loadContent('Users')">
+            <i class="fas fa-user"></i> Load Users
+        </button>
+        <button class="outlined-button" onclick="loadContent('Gangs')">
+            <i class="fas fa-users"></i> Load Gangs
+        </button>
+    </div>
+    <div class="scrollable-container">
+        <div id="userList" class="card-container"></div>
+        <div id="gangList" class="card-container"></div>
+    </div>
+    <a href="https://discord.gg/afzXv9WFKN" target="_blank" class="discord-logo">
+        <img src="https://img.icons8.com/?size=100&id=30998&format=png&color=000000" alt="Discord Logo">
+    </a>
+    <audio id="backgroundAudio" src="Roi.ogg" loop autoplay></audio>
+
+    <div id="clock"></div>
+    <div id="timeCheckPopup" style="display:none;">
+        You should go to bed!
+    </div>
+
+    <script src="script.js"></script>
+    <script src="mousetrail.js"></script>
+</body>
+</html>
